@@ -1,0 +1,27 @@
+.productos{
+    .tipo{
+        background-color: yellowgreen;
+        padding:0.5em 1em;
+        color:white;
+    }
+    .listado{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-left: 2em;
+        &--item{
+            width: 25%;
+           img{
+                widows: 50px;
+                height: 50px;
+           } 
+           &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+            }
+            p{
+                font-size:0.5em;
+            }
+        }
+    }
+}

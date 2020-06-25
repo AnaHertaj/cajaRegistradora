@@ -1,0 +1,12 @@
+<div class="comanda">
+    <div class="tipo">COMANDA</div>
+    <ul class="lista-comanda">
+        <li class="lista-comanda--item" *ngFor="let producto of productos">
+            <span class="nombre">{{ producto.nombre }}</span>
+            <!-- <img [src]="comida.url_image"> -->
+            <span class="precio">{{ producto.precio }} €</span>
+            <input class="precio" value="producto.precio"> €</span>
+        </li>
+    </ul>
+    <div class="total">TOTAL: {{total}}</div>
+</div>

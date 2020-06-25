@@ -1,0 +1,24 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:2em;
+    background-color: lightgreen;
+    color:whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    .title{
+        font-size: 3em;
+    }
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .col1{
+        width:70%;
+    }
+    .col2{
+        width:30%;
+    }
+}
