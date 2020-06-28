@@ -2,11 +2,11 @@
     <div class="tipo">COMANDA</div>
     <ul class="lista-comanda">
         <li class="lista-comanda--item" *ngFor="let producto of productos">
+            <img [src]="producto.url_imagen" width="16">
             <span class="nombre">{{ producto.nombre }}</span>
-            <!-- <img [src]="comida.url_image"> -->
             <span class="precio">{{ producto.precio }} €</span>
         </li>
     </ul>
-    <div class="total">TOTAL: <!--{{ calcularPrecio() }} --> </div> 
+    <div class="total">TOTAL: {{ calcularPrecioTotal() }} €</div> 
 </div> 
 

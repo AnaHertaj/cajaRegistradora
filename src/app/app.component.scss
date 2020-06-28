@@ -4,10 +4,14 @@
     justify-content: center;
     padding:2em;
     background-color: lightgreen;
-    color:whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    color:#bf0719;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    background: url(../assets/img/palms.jpg) repeat no-repeat;
+    background-size: cover;
     .title{
         font-size: 3em;
+        text-shadow: 2px 2px #fff;
+        letter-spacing: 0.15em;
     }
 }
 .main{

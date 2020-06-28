@@ -21,6 +21,9 @@
             flex-direction: row;
             justify-content: space-between;
         }
+        img{
+            filter: grayscale(100%);
+        }
     }
     .total{
         padding:1em;
